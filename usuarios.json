@@ -1,0 +1,25 @@
+[
+    {
+    "usuario": "tomasmarquez",
+"mail": "tomas@gmail.com",
+"password": "password",
+"direccionentrega": "18 de julio"
+},
+{
+    "usuario": "soyelvecino",
+"mail": "vecinovecino@gmail.com",
+"password": "password",
+"direccionentrega": "8 de octubre"
+},
+{
+    "usuario": "elotro",
+"mail": "elotrovecino@gmail.com",
+"password": "password",
+"direccionentrega": "15 de junio"
+},
+{
+    "usuario": "comerciante",
+"mail": "vendovendo@gmail.com",
+"password": "password",
+"direccionentrega": "8 de octubre"
+}]

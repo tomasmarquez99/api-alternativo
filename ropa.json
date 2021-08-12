@@ -1,0 +1,24 @@
+[
+    { 
+    "id": 1,
+    "nombre": "Buzo manga corta",
+    "precio": "1000",
+    "color": ["azul","negro","rojo","violeta"],
+    "talle": ["XS","S","M","L","XL"]
+  },
+  { 
+    "id": 2,
+    "nombre": "Buzo de lana",
+    "precio": "1200",
+    "color": ["azul","negro","blanco"],
+    "talle": ["XS","S","M","L","XL"]
+  },
+  { 
+    "id": 3,
+    "nombre": "remera manga corta",
+    "precio": "800",
+    "color": ["azul","negro","rojo","violeta", "rayada", "mostaza","blanco"],
+    "talle": ["XS","S","M","L","XL"]
+  }
+
+]
