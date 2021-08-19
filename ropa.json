@@ -3,13 +3,15 @@
     "id": 1,
     "nombre": "Buzo manga corta",
     "precio": "1000",
+    "imagen": "https://w7.pngwing.com/pngs/164/117/png-transparent-long-sleeved-t-shirt-long-sleeved-t-shirt-coolibar-men-s-long-sleeved-t-shirt-tshirt-grey-active-shirt-thumbnail.png",
     "color": ["azul","negro","rojo","violeta"],
     "talle": ["XS","S","M","L","XL"]
   },
   { 
     "id": 2,
-    "nombre": "Buzo de lana",
+    "nombre": "Short de baño",
     "precio": "1200",
+    "imagen": "https://w7.pngwing.com/pngs/263/306/png-transparent-swimsuit-swim-briefs-t-shirt-shorts-clothing-t-shirt-fashion-adidas-trunks.png",
     "color": ["azul","negro","blanco"],
     "talle": ["XS","S","M","L","XL"]
   },
@@ -17,6 +19,7 @@
     "id": 3,
     "nombre": "remera manga corta",
     "precio": "800",
+    "imagen": "https://www.pngarea.com/pngm/372/2850886_camiseta-blanca-png-camiseta-manga-corta-transparent-png.png",
     "color": ["azul","negro","rojo","violeta", "rayada", "mostaza","blanco"],
     "talle": ["XS","S","M","L","XL"]
   }
