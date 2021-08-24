@@ -1,5 +1,4 @@
 let ropa_URL = "https://tomasmarquez99.github.io/api-alternativo/ropa.json";
-let datos = [];
 
 function cargarDatos(datos) {
     let ropa = "";
@@ -7,12 +6,13 @@ function cargarDatos(datos) {
         
         let datosRopa = datos[i];
 
-        ropa += datosRopa.nombre;
-        
+        nombres = datosRopa.nombre;
+        precios = datosRopa.precio;
+        imagenes = datosRopa.imagen;
 
-        document.getElementsByClassName("productos").innerHTML += ropa;
+        document.getElementById("productos").innerHTML += ` ${nombres} ${precios} <img src="${imagenes}"> <br><br>`;
 
-        console.log(ropa)
+      
        
     }
     
