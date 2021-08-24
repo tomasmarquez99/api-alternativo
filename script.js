@@ -1,27 +1,41 @@
-let datosRopa = "https://tomasmarquez99.github.io/api-alternativo/ropa.json";
+let ropa_URL = "https://tomasmarquez99.github.io/api-alternativo/ropa.json";
+let datos = [];
 
-document.addEventListener("DOMContentLoaded", function (e){
-    
-    function cargarDatos(url) {
+function cargarDatos(datos) {
+    let ropa = "";
+    for (let i = 0; i < datos.length; ++i) {
         
-        document.getElementById("productos").innerHTML = "";
-        fetch(url)
-            .then(respuesta => respuesta.json())
-    
-            .then(datos => {
-                for( let i = 0; i < datos.lenght; ++i){
-            let datosRopa = datos[i];
+        let datosRopa = datos[i];
 
-            document.getElementById("productos").innerHTML += datosRopa
-        }
-            })
-            .catch(error => alert("Hubo un error: " + error));
+        ropa += datosRopa.nombre;
+        
+
+        document.getElementsByClassName("productos").innerHTML += ropa;
+
+        console.log(ropa)
+       
     }
+    
 
-    cargarDatos(datosRopa);
+}
+
+
+
+document.addEventListener("DOMContentLoaded", function (e) {
+
+    fetch(ropa_URL)
+        .then(respuesta => respuesta.json())
+
+        .then(datos => {
+            cargarDatos(datos);
+
+        }
+        )
 })
 
-    
 
-    
-    
+
+
+
+
+

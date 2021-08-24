@@ -1,7 +1,7 @@
 [
     { 
     "id": 1,
-    "nombre": "Buzo manga corta",
+    "nombre": "Remera manga larga",
     "precio": "1000",
     "imagen": "https://w7.pngwing.com/pngs/164/117/png-transparent-long-sleeved-t-shirt-long-sleeved-t-shirt-coolibar-men-s-long-sleeved-t-shirt-tshirt-grey-active-shirt-thumbnail.png",
     "color": ["azul","negro","rojo","violeta"],
@@ -17,7 +17,7 @@
   },
   { 
     "id": 3,
-    "nombre": "remera manga corta",
+    "nombre": "Remera manga corta",
     "precio": "800",
     "imagen": "https://www.pngarea.com/pngm/372/2850886_camiseta-blanca-png-camiseta-manga-corta-transparent-png.png",
     "color": ["azul","negro","rojo","violeta", "rayada", "mostaza","blanco"],
