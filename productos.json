@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "nombre" : "remera_manga_larga",
+        "categoria" : "remeras",
+        "descripcion" : " Remera de algodón sin estampado, todos los talles: XS, S, M, L, XL, XXL. Las remeras calidad StidyFive aseguran una muy buena calidad. 50 años en el mercado "
+    },
+    {
+        "id": 2,
+        "nombre" : "short_de_bano",
+        "categoria" : "shorts",
+        "descripcion" : " Short de colores con estampado, todos los talles."
+    }
+    ]
