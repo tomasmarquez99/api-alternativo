@@ -31,6 +31,7 @@ function cargarDatos(datos) {
 function descripcionProducto(id){
     localStorage.setItem('producto', JSON.stringify({idProducto: id}));
     window.location='producto.html'
+    
     }
 
 
