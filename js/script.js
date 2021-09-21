@@ -12,12 +12,15 @@ function cargarDatos(datos) {
 
         document.getElementById("productos").innerHTML +=
         `  
+        <span onclick='descripcionProducto(${datosRopa.id})'>
         <tr>
         <td>${nombres}</td>
         <td>$${precios}</td>
-        <td><img src="${imagenes}" class="float-right img-fluid"></td>
+        <td><img src="${imagenes}" class="float-right img-fluid" width="200" height="200"></td>
+        
+        <td><button onclick='descripcionProducto(${datosRopa.id})'>Descripción</button></td>
         </tr>
-        <button onclick='descripcionProducto(${datosRopa.id})'>Descripción</button>
+        <span>
         `;
 
 
