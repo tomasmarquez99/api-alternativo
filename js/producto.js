@@ -21,7 +21,7 @@ function mostrarDescripcion(objeto) {
 
 }
 
-function mostrarCuestionario(objeto) {
+/* function mostrarCuestionario(objeto) {
 
 
 
@@ -123,8 +123,10 @@ function examinar() {
     }
     else { indiceacierto = 0 }
 
+*/
 
-var cantidadTest = parseInt(localStorage.getItem('Cantidad de test'));
+
+/*var cantidadTest = parseInt(localStorage.getItem('Cantidad de test'));
 if(localStorage.getItem('Cantidad de test'))
 {
     cantidadTest += 1;
@@ -134,7 +136,7 @@ if(localStorage.getItem('Cantidad de test'))
 
 localStorage.setItem('puntuacion', JSON.stringify({ puntuacion: puntuacion }));
 }
-}
+*/
 
 
 
@@ -147,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
                 if (producto.id == JSON.parse(localStorage.getItem('producto')).idProducto) {
 
                     mostrarDescripcion(producto);
-                    mostrarCuestionario(producto);
+                    //mostrarCuestionario(producto);
 
 
 

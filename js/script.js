@@ -11,31 +11,38 @@ function cargarDatos(datos) {
         imagenes = datosRopa.imagen;
 
         document.getElementById("productos").innerHTML +=
-        `  
-        <span onclick='descripcionProducto(${datosRopa.id})'>
-        <tr>
-        <td>${nombres}</td>
-        <td>$${precios}</td>
-        <td><img src="${imagenes}" class="float-right img-fluid" width="200" height="200"></td>
+            `  
+        <a onclick='descripcionProducto(${datosRopa.id})' class="list-group-item list-group-item-action">
+              <div class="row">
+                    <div class="col-3">
+                         <img src="${imagenes}" class="" width="200" height="200">
+                    </div>
+                    <div class="col">
+                    <div class="d-flex w-100 justify-content-between">
+                     <h4 class="mb-1">${nombres}</h4>
+                    <small class="text-muted">$${precios}</small>
+                     </div>
+                     </div>
         
-        <td><button onclick='descripcionProducto(${datosRopa.id})'>Descripción</button></td>
-        </tr>
-        <span>
+        
+        
+        </div>
+        </a>
         `;
 
 
 
     }
 
-    
+
 
 
 }
-function descripcionProducto(id){
-    localStorage.setItem('producto', JSON.stringify({idProducto: id}));
-    window.location='producto.html'
-    
-    }
+function descripcionProducto(id) {
+    localStorage.setItem('producto', JSON.stringify({ idProducto: id }));
+    window.location = 'producto.html'
+
+}
 
 
 
@@ -56,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
 
 
-        
+
 /*function guardarDatos(){
     //primero creo un objeto con dos atributos. ahi guardo lo que el usuario puso
     // cuando hace click. la function guardar datos es lo mismo que
@@ -67,12 +74,12 @@ document.addEventListener("DOMContentLoaded", function (e) {
      };
      // trigo los campos con los datos y ahora tienen valor de string.
      // Si había algo guardado ahí, lo guardo
- 
- 
+
+
      let datos_usuario_json = JSON.stringify(datos_usuario);
      // con esto creo una nueva variable, y a través de strigify
      // guardo el objeto en sintaxis JSON
- 
+
      localStorage.setItem('datos_usuario', datos_usuario_json);
      // llamo a setItem del objeto local storage y le paso el nombre del json y luego ese json
 
