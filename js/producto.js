@@ -7,13 +7,22 @@ function mostrarDescripcion(objeto) {
     var contenido = '';
 
     contenido +=
-        `  
-            ${objeto.nombre}
-            <br><br>
-            ${objeto.descripcion}
-            <br><br>
-            ${objeto.categoria}
+        `  <div class="row">
         
+            <h3 class="text-center">${objeto.nombre}</h3>
+            <br><br>
+            <div class="row">
+            <div class="col-3"></div>
+            <div class='text-center col-6'>${objeto.descripcion}</div>
+            <div class="col-3"></div>
+            </div>
+            <div class="row">
+            <div class="col"></div>
+            <div class='text-center col-4'>Categoría: ${objeto.categoria}</div>
+            <div class="col-4"></div>
+            </div>
+            
+        </div>
          `
 
 
